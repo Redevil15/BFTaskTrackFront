@@ -6,7 +6,6 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import { Toaster } from './components/ui/sonner.tsx';
 
-// Importa tu clave pública de Clerk desde las variables de entorno
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 if (!PUBLISHABLE_KEY) {
